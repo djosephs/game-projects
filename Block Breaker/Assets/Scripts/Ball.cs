@@ -23,7 +23,7 @@ public class Ball : MonoBehaviour
 			//Wait for a mouse press to launch
 			if (Input.GetMouseButtonDown (0)) {
 				print ("Mouse Clicked, Ball Launched");
-				this.rigidbody2D.velocity = new Vector2 (2f, 10f);
+				this.rigidbody2D.velocity = new Vector2 (2f, 13f);
 				hasStarted = true;
 			}
 		}
